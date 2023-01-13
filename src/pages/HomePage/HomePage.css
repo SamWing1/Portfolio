@@ -1,0 +1,27 @@
+img {
+  width: 50%;
+  float: right;
+}
+
+.homepage {
+  padding-top: 20px;
+}
+
+.hometext {
+  padding-left: 175px;
+}
+
+.homeimg {
+  padding-right: 275px;
+}
+
+.title {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-size: 50px;
+  padding-top: 30px;
+  padding-left: 175px;
+}
