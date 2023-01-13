@@ -35,11 +35,11 @@
 
 .header-element {
     text-align: center;
+    padding-bottom: 0px;
 }
 
 .projtitle {
     font-size: 50px;
-    margin-bottom: 0px;
 }
 
 #gitimg {
