@@ -13,6 +13,7 @@ img {
 
 .homeimg {
   padding-right: 275px;
+  min-width: 50%;
 }
 
 .title {

@@ -1,0 +1,56 @@
+#form {
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+#formname {
+    padding-bottom: 50px;
+    scale: 1.5;
+}
+
+#formemail {
+    padding-bottom: 50px;
+    scale: 1.5;
+}
+
+#formmessage {
+    padding-bottom: 30px;
+    scale: 1.5;
+}
+
+#formsubmit {
+    text-align: center;
+    width: 261px;
+    scale: 1.5;
+}
+
+.input {
+    height: 25px;
+    width: 261px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+.messageinput {
+    height: 40px;
+    width: 261px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#status {
+    text-align: center;
+    width: 261px;
+}
+
+#emailme {
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 185px;
+    padding-top: 50px;
+    font-size: 37px;
+}
