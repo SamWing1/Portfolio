@@ -1,5 +1,5 @@
 #reachme {
-    padding-left: 175px;
+    padding-left: 205px;
     padding-top: 24px;
     font-size: 50px;
     margin-bottom: 0px;
@@ -74,4 +74,45 @@
 .stubtext {
     margin-top: 0px;
     text-align: center;
+}
+
+.card {
+    height: 370px;
+    width: 330px;
+    margin-left: 255px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    border-radius: 18px;
+}
+
+.pic {
+    scale: .8;
+    margin-top: 20px;
+    margin-right: 82px;
+    border-radius: 120px;
+    background-image: linear-gradient(to bottom right, rgb(55, 55, 55), black);
+}
+
+.cardtext {
+    position: absolute;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 28px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.resume {
+    scale: 0.2;
+    padding-top: 85px;
+    margin-right: 84px;
+}
+
+.restxt {
+    font-size: 10px;
+    padding-top: 330px;
+    width: 10px;
+    padding-left: 145px;
+    position: absolute;
 }
