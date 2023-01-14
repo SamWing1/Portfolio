@@ -1,10 +1,77 @@
 #reachme {
-    padding-left: 50px;
-    padding-top: 15px;
+    padding-left: 175px;
+    padding-top: 24px;
     font-size: 50px;
+    margin-bottom: 0px;
 }
 
 #test {
     width: 500px;
     float: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    padding-top: 380px;
+}
+
+.phoneimg {
+    scale: 0.5;
+    margin: 0 auto;
+}
+
+.gitimg {
+    scale: 0.5;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: .2s;
+}
+
+.gitimg:hover {
+    scale: 0.6;
+}
+
+.linkedimg {
+    scale: 0.5;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: .2s;
+}
+
+.linkedimg:hover {
+    scale: 0.6;
+}
+
+.phonestub {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.gitstub {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.linkstub {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.stubtext {
+    margin-top: 0px;
+    text-align: center;
 }

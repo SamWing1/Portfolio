@@ -1,8 +1,7 @@
 #form {
     display:flex;
     justify-content: flex-end;
-    padding-right: 200px;
-    padding-top: 30px;
+    padding-right: 130px;
 }
 
 #formname {
@@ -16,7 +15,7 @@
 }
 
 #formmessage {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     scale: 1.5;
 }
 
@@ -49,8 +48,8 @@
 
 #emailme {
     display:flex;
-    justify-content: flex-end;
-    padding-right: 185px;
-    padding-top: 50px;
-    font-size: 37px;
+    text-align: center;
+    width: 261px;
+    font-size: 30px;
+    padding-bottom: 20px;
 }

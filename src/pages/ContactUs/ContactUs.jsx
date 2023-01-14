@@ -9,22 +9,22 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_oxnge84', 'template_rooyh2f', form.current, 'HW8pM2ifxM8FoYVMV')
+    emailjs.sendForm('ervice_oxnge84', 'template_rooyh2f', form.current, 'HW8pM2ifxM8FoYVMV')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
           setStatusMessage('Sent!');
       }, (error) => {
           console.log(error.text);
-          setStatusMessage(`whoops, something went awry`);
+          setStatusMessage(`whoops, something went wrong`);
       });
   };
 
   return (
     <>
-      <h1 id='emailme'>Shoot Me an Email</h1>
     <div id='form'>
       <form ref={form} onSubmit={sendEmail}>
+      <h1 id='emailme'>Shoot Me an Email</h1>
         <div id='formname'>
           <label>Your Name</label>
           <br />
