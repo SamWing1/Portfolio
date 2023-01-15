@@ -64,3 +64,9 @@
     transition: opacity .2s;
     border-radius: 25px;
 }
+
+.subtn {
+    background-color: rgb(177, 177, 177);
+    border-radius: 5px;
+    border: 0px;
+}
