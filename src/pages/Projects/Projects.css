@@ -31,11 +31,13 @@
     width: 600px;
     text-align: left;
     padding-top: 35px;
+    color: rgb(212, 212, 212);
 }
 
 .header-element {
     text-align: center;
     padding-bottom: 0px;
+    color: rgb(212, 212, 212);
 }
 
 .projtitle {

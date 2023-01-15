@@ -7,16 +7,22 @@
 #formname {
     padding-bottom: 50px;
     scale: 1.5;
+    color: rgb(212, 212, 212);
+
 }
 
 #formemail {
     padding-bottom: 50px;
     scale: 1.5;
+    color: rgb(212, 212, 212);
+
 }
 
 #formmessage {
     padding-bottom: 50px;
     scale: 1.5;
+    color: rgb(212, 212, 212);
+
 }
 
 #formsubmit {
@@ -44,6 +50,8 @@
 #status {
     text-align: center;
     width: 261px;
+    color: rgb(212, 212, 212);
+
 }
 
 #emailme {
@@ -52,4 +60,6 @@
     width: 261px;
     font-size: 30px;
     padding-bottom: 20px;
+    color: rgb(212, 212, 212);
+
 }

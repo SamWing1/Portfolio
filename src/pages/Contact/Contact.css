@@ -3,6 +3,8 @@
     padding-top: 24px;
     font-size: 50px;
     margin-bottom: 0px;
+    color: rgb(212, 212, 212);
+
 }
 
 #test {
@@ -57,18 +59,24 @@
     display: flex;
     flex-direction: column;
     width: 200px;
+    color: rgb(212, 212, 212);
+
 }
 
 .gitstub {
     display: flex;
     flex-direction: column;
     width: 200px;
+    color: rgb(212, 212, 212);
+
 }
 
 .linkstub {
     display: flex;
     flex-direction: column;
     width: 200px;
+    color: rgb(212, 212, 212);
+
 }
 
 .stubtext {
@@ -84,6 +92,7 @@
     position: absolute;
     background-color: rgb(173, 173, 173);
     border-radius: 18px;
+    box-shadow: 0 5px 15px black;
 }
 
 .pic {

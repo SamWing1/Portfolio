@@ -1,6 +1,8 @@
 #aboutheader {
     padding-top: 50px;
     padding-left: 50px;
+    color: rgb(212, 212, 212);
+
 }
 
 #abouttext {
@@ -9,9 +11,13 @@
     padding-left: 600px;
     padding-top: 50px;
     line-height: 1.75;
+    color: rgb(212, 212, 212);
+
 }
 
 #abouttechs {
     padding-top: 100px;
     text-align: center;
+    color: rgb(212, 212, 212);
+
 }

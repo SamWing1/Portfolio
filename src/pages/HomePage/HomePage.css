@@ -19,10 +19,16 @@ img {
 .title {
   font-size: 70px;
   margin-bottom: 0px;
+  color: rgb(212, 212, 212);
 }
 
 .name {
   font-size: 50px;
   padding-top: 30px;
   padding-left: 175px;
+  color: rgb(212, 212, 212);
+}
+
+.brief {
+  color: rgb(212, 212, 212);
 }

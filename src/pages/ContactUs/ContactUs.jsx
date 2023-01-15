@@ -9,7 +9,7 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('ervice_oxnge84', 'template_rooyh2f', form.current, 'HW8pM2ifxM8FoYVMV')
+    emailjs.sendForm('service_oxnge84', 'template_rooyh2f', form.current, 'HW8pM2ifxM8FoYVMV')
       .then((result) => {
           console.log(result.text);
           e.target.reset();

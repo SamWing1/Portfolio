@@ -1,7 +1,7 @@
 import { ContactUs } from '../ContactUs/ContactUs';
-import cellphone from '../../Images/cellphone.png';
-import github from '../../Images/github.png';
-import linkedin from '../../Images/linkedin.png';
+import cellphone from '../../Images/cellphonealt.png';
+import github from '../../Images/githubalt.png';
+import linkedin from '../../Images/linkedinalt.png';
 import resume from '../../Images/resume.png';
 import headshot from '../../Images/contactpic.png';
 import './Contact.css';
@@ -13,7 +13,7 @@ export default function Contact() {
             <div class='card'>
                 <img class='pic' src={headshot}/>
                 <div class='cardtext'>Sam Wing <br /> geckoromanwing@hotmail.com <br /> Santa Barbara, CA</div>
-                <img class='resume' src={resume}/>
+                <a href='https://docs.google.com/document/d/10-dfrRsxo8AhhJfeyRZWXgxZnhnSDawJN1PRaWR0qJU/edit?usp=sharing' target='_blank' rel='noreferrer noopener'><img class='resume' src={resume}/></a>
                 <p class='restxt'>resume</p>
             </div>
             <div class='container'>
