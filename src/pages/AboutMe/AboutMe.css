@@ -19,5 +19,15 @@
     padding-top: 100px;
     text-align: center;
     color: rgb(212, 212, 212);
+}
 
+@media only screen and (max-width: 600px) {
+    #abouttext {
+        width: 320px;
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    #abouttechs {
+        padding-top: 25px;
+    }
 }
