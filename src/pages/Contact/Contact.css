@@ -142,17 +142,18 @@
     .card {
         margin: 0 auto;
         margin-top: 10px;
-        /* margin-left: 35px; */
         position: relative;
     }
     .container {
-        margin: 0 auto;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
     }
     .subcontainer {
-        padding: 0;
-        scale: 1;
+        padding: 0px;
+        margin: 0px;
         width: 380px;
-        padding-left: 290px;
     }
     .linkedimg {
         margin-left: 33.3px;

@@ -10,7 +10,7 @@ export default function Contact() {
     return(
         <>
             <h1 id='reachme'>Where to Reach Me!</h1>
-            <div class='bigcontainer'>
+            {/* <div class='bigcontainer'> */}
                 <div class='card'>
                     <img class='pic' src={headshot}/>
                     <div class='cardtext'>Sam Wing <br /> geckoromanwing@hotmail.com <br /> Santa Barbara, CA</div>
@@ -39,7 +39,7 @@ export default function Contact() {
                         <ContactUs />
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
             <div class='mobileform'>
                     <ContactUs />
                 </div>
