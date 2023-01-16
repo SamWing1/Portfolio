@@ -63,5 +63,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-    
+    #form {
+        padding: 0;
+        justify-content: center;
+        scale: .9;
+    }
+    #status {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
 }
