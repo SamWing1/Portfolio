@@ -140,10 +140,13 @@
         text-align: center;
     }
     .card {
-        margin: 0;
+        margin: 0 auto;
         margin-top: 10px;
-        margin-left: 35px;
+        /* margin-left: 35px; */
         position: relative;
+    }
+    .container {
+        margin: 0 auto;
     }
     .subcontainer {
         padding: 0;
