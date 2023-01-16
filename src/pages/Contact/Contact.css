@@ -125,3 +125,44 @@
     padding-left: 145px;
     position: absolute;
 }
+
+.mobileform {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #reachme {
+        margin: 0;
+        padding: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .card {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 45px;
+        position: relative;
+    }
+    .subcontainer {
+        padding: 0;
+        scale: 1;
+        width: 400px;
+        padding-left: 290px;
+    }
+    .linkedimg {
+        margin-left: 33.3px;
+        margin-right: 33.3px;
+    }
+    .gitimg {
+        margin-left: 33.3px;
+        margin-right: 33.3px;
+    }
+    .emailform {
+        display: none;
+    }
+    .mobileform {
+        display: block;
+    }
+}
