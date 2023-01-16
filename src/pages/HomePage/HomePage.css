@@ -32,3 +32,55 @@ img {
 .brief {
   color: rgb(212, 212, 212);
 }
+
+.mobileshow {
+  display: none;
+}
+
+.mobileimg {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+  }
+  .title {
+    font-size: 35px;
+    margin-top: 0px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .hometext {
+    padding-left: 30px;
+  }
+  .homeimg {
+    display: none;
+  }
+  .homepage {
+    padding-top: 0px;
+  }
+  .hometext {
+    padding-left: 0px;
+  }
+  .brief {
+    display: none;
+  }
+  .mobileshow {
+    display: block;
+    color: rgb(212, 212, 212);
+    width: 370px;
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+  .mobileimg {
+    display: block;
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-bottom: 10px;
+  }
+}

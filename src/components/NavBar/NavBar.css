@@ -19,6 +19,7 @@ nav {
     color: rgb(212, 212, 212);
     font-size: 18px;
     padding: 9px 20px 9px 20px;
+    white-space: nowrap;
 }
 
 .link:hover {
@@ -35,3 +36,7 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
+@media only screen and (max-width: 600px) {
+    
+}
