@@ -15,14 +15,15 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .subcontainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 600px;
+    width: 330px;
+    padding-left: 260px;
     padding-top: 380px;
 }
 
@@ -34,8 +35,8 @@
 .gitimg {
     scale: 0.5;
     margin: 0 auto;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 28px;
+    margin-right: 28px;
     transition: .2s;
 }
 
@@ -46,8 +47,8 @@
 .linkedimg {
     scale: 0.5;
     margin: 0 auto;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 28px;
+    margin-right: 28px;
     transition: .2s;
 }
 
@@ -58,7 +59,7 @@
 .phonestub {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 110px;
     color: rgb(212, 212, 212);
 
 }
@@ -66,7 +67,7 @@
 .gitstub {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 110px;
     color: rgb(212, 212, 212);
 
 }
@@ -74,7 +75,7 @@
 .linkstub {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 110px;
     color: rgb(212, 212, 212);
 
 }

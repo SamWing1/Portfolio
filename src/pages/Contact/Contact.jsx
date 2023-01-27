@@ -10,14 +10,13 @@ export default function Contact() {
     return(
         <>
             <h1 id='reachme'>Where to Reach Me!</h1>
-            {/* <div class='bigcontainer'> */}
+                <div class='container'>
                 <div class='card'>
                     <img class='pic' src={headshot}/>
                     <div class='cardtext'>Sam Wing <br /> geckoromanwing@hotmail.com <br /> Santa Barbara, CA</div>
                     <a href='https://docs.google.com/document/d/10-dfrRsxo8AhhJfeyRZWXgxZnhnSDawJN1PRaWR0qJU/edit?usp=sharing' target='_blank' rel='noreferrer noopener'><img class='resume' src={resume}/></a>
                     <p class='restxt'>resume</p>
                 </div>
-                <div class='container'>
                     <div class='subcontainer'>
                         <div class='phonestub'>
                             <img class='phoneimg' src={cellphone}/>
@@ -39,7 +38,6 @@ export default function Contact() {
                         <ContactUs />
                     </div>
                 </div>
-            {/* </div> */}
             <div class='mobileform'>
                     <ContactUs />
                 </div>

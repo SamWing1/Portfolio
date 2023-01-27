@@ -1,7 +1,7 @@
 #form {
     display:flex;
     justify-content: flex-end;
-    padding-right: 130px;
+    padding-right: 150px;
 }
 
 #formname {
@@ -59,6 +59,7 @@
     width: 261px;
     font-size: 30px;
     padding-bottom: 20px;
+    margin-top: 10px;
     color: rgb(212, 212, 212);
 }
 
